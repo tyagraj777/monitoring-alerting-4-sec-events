@@ -15,7 +15,7 @@ terraform apply -auto-approve applies the Terraform configuration to provision t
 
 3. Retrieve Terraform Outputs:
 
-Variables like PROJECT_ID, REGION, and ALERT_EMAIL are fetched using terraform output. These are used to interact with the GCP services.
+Variables like PROJECT_ID, REGION, and ALERT_EMAIL are fetched using "terraform.tfvars". These are used to interact with the GCP services.
 
 3. Test Steps:
 
